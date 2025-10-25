@@ -1,1 +1,1 @@
-# my-first-project
+# blended 1st lesson
