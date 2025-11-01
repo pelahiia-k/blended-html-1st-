@@ -4,70 +4,104 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href=""></a>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Catalog</a></li>
-          <li><a href="">Sale</a></li>
-          <li><a href="">Reviews</a></li>
-          <li><a href="">Contact Us</a></li>
+    <header class="header">
+      <div class="container header-container">
+        <a class="header-logo" href="./index.html">watchcharm</a>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Home</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">About Us</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Catalog</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Sale</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Reviews</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-social-list">
+          <li class="header-social-item">
+            <a class="header-social-link" href=""><img src="" alt="" /></a>
+          </li>
+          <li class="header-social-item">
+            <a class="header-social-link" href=""><img src="" alt="" /></a>
+          </li>
+          <li class="header-social-item">
+            <a class="header-social-link" href=""><img src="" alt="" /></a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main>
-      <section>
-        <h1>Welcome to our collection of premium watches</h1>
-        <img
-          src="./images/faces.png"
-          alt="Three company members"
-          width="146"
-          height="60"
-        />
-        <p>
-          Our watches are not just timepieces, but also an expression of your
-          personality and lifestyle. From classic designs to modern ones, we
-          have a watch to suit every taste and occasion.
-        </p>
-        <a href="#scrolldown">Scroll down</a>
-        <img
-          src="./images/clockpage1.png"
-          alt="A beautiful clock"
-          width="1150"
-          height="500"
-        />
+      <section class="hero">
+        <div class="container">
+          <div class="hero-wrapper">
+            <div>
+              <h1 class="heading-one">
+                Welcome to our
+                <span class="heading-collection">collection</span> of premium
+                watches
+              </h1>
+              <p class="paragraphs section-one-p">
+                Our watches are not just timepieces, but also an expression of
+                your personality and lifestyle. From classic designs to modern
+                ones, we have a watch to suit every taste and occasion.
+              </p>
+            </div>
+            <div class="hero-img-scroll">
+              <img
+                src="./images/faces.png"
+                alt="Three company members"
+                width="146"
+                height="60"
+              />
+              <a class="scrolldown" href="#scrolldown">Scroll down</a>
+            </div>
+          </div>
+          <img
+            src="./images/clockpage1.png"
+            alt="A beautiful clock"
+            width="1150"
+            height="500"
+          />
+        </div>
       </section>
 
       <section>
-        <h2>About Us</h2>
-        <p>
+        <h2 class="heading-two">About Us</h2>
+        <p class="paragraphs">
           Welcome to our premium watch collection, where luxury and style meet
           functionality and precision. Our selection of timepieces embodies the
           very best in Swiss craftsmanship and engineering, ensuring that you'll
           always have a reliable and stylish accessory on your wrist.
         </p>
-        <p>
+        <p class="paragraphs">
           At our premium watch collection, we believe that a watch is more than
           just a timekeeping device – it's a statement piece that reflects your
           personality and style. So why settle for anything less than the best?
         </p>
-        <button type="button">View catalog</button>
+        <button class="button-catalog" type="button">View catalog</button>
         <img
           src="./images/clockinsquare.png"
           alt="Clock"
@@ -154,31 +188,31 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Reviews</h2>
-        <ul>
-          <li>
+      <section class="reviews">
+        <h2 class="heading-two">Reviews</h2>
+        <ul class="reviews-list">
+          <li class="reviews-item">
             <img src="./images/john.png" alt="John" width="56" height="56" />
-            <h3>John Wax</h3>
-            <p>
+            <h3 class="heading-three reviews-heading">John Wax</h3>
+            <p class="paragraphs">
               Buying a watch from was the best choice for me. The design is
               perfectly combined with high quality materials. The strap fits
               nicely on the hand, and the mechanism works flawlessly.
             </p>
           </li>
-          <li>
+          <li class="reviews-item">
             <img src="./images/victoria.png" alt="Victoria" width="56" />
-            <h3>Victoria Romashenko</h3>
-            <p>
+            <h3 class="heading-three">Victoria Romashenko</h3>
+            <p class="paragraphs">
               Can't take my eyes off my watch from. Every time I put it on, it
               is admired by those around me. The build quality and attention to
               detail make it a real gem among my accessories.
             </p>
           </li>
-          <li>
+          <li class="reviews-item">
             <img src="./images/anastasia.png" alt="Anastasia" width="56" />
-            <h3>Anastasia Trachuk</h3>
-            <p>
+            <h3 class="heading-three">Anastasia Trachuk</h3>
+            <p class="paragraphs">
               My watch from is a real masterpiece. Every detail impresses with
               the high quality of execution. Special features like [specify
               features] make it an indispensable companion in my daily life.
